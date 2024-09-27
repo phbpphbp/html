@@ -1,0 +1,74 @@
+@charset "utf-8";
+
+
+body {
+  margin: 0;
+}
+
+header {
+  background: #cdc3ff;
+  text-align: center;
+  padding: 32px 0;
+}
+
+header img {
+    object-fit: cover;
+  border-radius: 40%;
+}
+
+h1 {
+  margin: 10px;
+  font-weight: italic;
+  font-size: 45px;
+}
+
+p {
+  text-align: center;
+  font-size: 14px;
+}
+
+main {
+  padding: 64px 0;
+}
+
+h2 {
+  margin: 0;
+  font-weight: italic;
+  font-size: 30px;
+  text-align: center;
+}
+
+h3 {
+  margin: 16px 0 0;
+  font-weight: italic;
+  font-size: 30px;
+  text-align: center;
+}
+
+section {
+  width: 1000px;
+  margin: 64px auto 0;
+}
+
+section p {
+  margin-top: 16px;
+  line-height: 1.9;
+}
+
+section img {
+    object-fit: cover;
+    border-radius: 5%;
+    margin: 0 auto;
+    display: block; /* ブロック要素にする */
+  }
+  
+
+footer {
+  border-top: 1px solid #ccc;
+  text-align: center;
+  padding: 32px 0;
+}
+
+small {
+  color: #aaa;
+} 
